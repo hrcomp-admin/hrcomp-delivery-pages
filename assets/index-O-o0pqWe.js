@@ -162,8 +162,8 @@ Resources:`;for(let t of c){if(!t||typeof t!=`string`)throw Error(`@supabase/aut
         <p>고객사별 납기 · 품목별 출하 및 수급현황</p>
       </div>
       <div class="header-actions">
-        <button id="mobileMenuButton" type="button">← 업무 메뉴</button>
         <div class="base-date">기준일 <strong>${q}</strong> (오늘)</div>
+        <button id="mobileMenuButton" type="button">← 업무 메뉴</button>
         <button id="refreshButton" type="button" ${Fa?`disabled`:``}>새로고침</button>
         <button id="logoutButton" type="button">로그아웃</button>
       </div>
